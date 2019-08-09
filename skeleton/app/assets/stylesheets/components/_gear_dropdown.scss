@@ -1,0 +1,15 @@
+// Use the gear_dropdown.png screenshot as a style guide
+.hidden {
+  visibility: hidden;
+}
+.gear-dropdown {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  z-index: 10;
+  background-color: rgb(156, 194, 194);
+  right: 70px;
+  width: 100px;
+  font-family: comic-sans;
+  font-size: 20px;
+}
